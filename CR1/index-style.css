@@ -1,21 +1,40 @@
 #navbar {
   background-color: white;
 }
-#navbar button {
-  text-decoration: none;
+#navbar .search {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 140px;
+  align-items: center;
   border: 2px solid;
   border-radius: 15px;
   padding: 10px;
-  background-color: white;
+  background-color: black;
   font-size: large;
+  text-align: center;
+  gap: 3px;
+}
+#navbar .search button {
+  text-decoration: none;
+  background-color: white;
+  width: 100px;
+  border-radius: 10px;
+}
+#navbar .search input {
+  width: 120px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 10px;
 }
 #navbar .RecipeMonth {
   border: black 3px solid;
-  color: rgb(243, 220, 176);
+  color: white;
   font-size: x-large;
   border-radius: 15px;
   height: 50px;
+  width: 140px;
   padding: 15px;
+  text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-image: url(https://media.istockphoto.com/photos/stewed-beef-with-potatoes-and-carrots-picture-id648960330?b=1&k=20&m=648960330&s=170667a&w=0&h=4YoMqtqApVXXGDb4BL__ISTIG9KfKxJBRWlIFNAdmps=);
   background-size: cover;
@@ -80,6 +99,10 @@ main p {
   font-family: "Times New Roman", Times, serif;
 }
 
+.main-grid :hover {
+  transform: scale(1.01);
+}
+
 footer {
   color: white;
   background-color: black;
@@ -137,7 +160,7 @@ footer img {
     height: 400px;
   }
   #navbar .navbarTop img {
-    width: 75px;
+    width: 50px;
   }
   #navbar .navbarBottom {
     font-size: small;
@@ -146,17 +169,23 @@ footer img {
     display: flex;
     flex-direction: column;
   }
-  #navbar button {
+  #navbar .search {
+    width: 80px;
+    padding: 2px;
+  }
+  #navbar .search button {
+    width: 50px;
+    font-size: x-small;
+  }
+  #navbar .search input {
     width: 75px;
-    padding: 5px;
-    font-size: small;
+    font-size: x-small;
   }
   #navbar .RecipeMonth {
-    font-size: medium;
+    font-size: x-small;
     border-radius: 15px;
     height: 25px;
-    padding: 15px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    width: 50px;
   }
 }
 #Month {
