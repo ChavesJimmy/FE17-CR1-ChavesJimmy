@@ -5,10 +5,13 @@
 
 }
 
-@media screen and(max-width: 780px){
+@media screen and(max-width: 768px){
     main{
         display: grid;
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    }
+    footer{
+        font-size: small;
     }
 }
 
@@ -24,5 +27,9 @@
     }
     .navbarBottom{
         font-size: small;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
     }
 }

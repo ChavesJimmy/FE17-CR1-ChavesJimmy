@@ -60,6 +60,30 @@ main p {
 footer {
   color: white;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer .links :last-child {
+  border-right: none;
+}
+footer .links a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  margin: 20px;
+  border-right: white 1px solid;
+  padding-right: 50px;
+}
+footer p {
+  margin-top: 0;
+}
+footer img {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 1800px) {
@@ -67,10 +91,13 @@ footer {
     font-size: large;
   }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   main {
     display: grid;
     grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  }
+  footer {
+    font-size: small;
   }
 }
 @media screen and (max-width: 480px) {
@@ -85,5 +112,9 @@ footer {
   }
   .navbarBottom {
     font-size: small;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=index-style.css.map */
