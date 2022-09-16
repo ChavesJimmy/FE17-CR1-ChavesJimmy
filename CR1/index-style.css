@@ -187,6 +187,26 @@ footer img {
     height: 25px;
     width: 50px;
   }
+  .gridAbout .who {
+    font-size: large;
+  }
+  .gridAbout .whoContent {
+    font-size: small;
+    padding: 15px;
+  }
+  .gridAbout .why {
+    font-size: large;
+  }
+  .gridAbout .whyContent {
+    font-size: small;
+  }
+  .gridAbout .otherInfos {
+    font-size: large;
+  }
+  .gridAbout .otherContent {
+    font-size: small;
+    padding: 15px;
+  }
 }
 #Month {
   display: flex;
@@ -226,4 +246,81 @@ footer img {
   background-color: black;
   padding: 2px;
   border-radius: 5px;
+}
+
+.gridAbout {
+  display: grid;
+  grid-template: repeat(4, 150px)/repeat(4, 1fr);
+  gap: 0;
+  border: 2px solid;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpY2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  grid-area: 1/1/2/5;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  text-shadow: black 10px 4px 6px;
+  padding: 25px;
+}
+
+.who {
+  grid-area: 2/1/3/2;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: xx-large;
+}
+
+.whoContent {
+  grid-area: 2/2/3/5;
+  border: 2px solid;
+  font-size: x-large;
+  color: white;
+  font-weight: bold;
+  text-shadow: black 10px 4px 6px;
+  padding: 25px;
+}
+
+.why {
+  grid-area: 3/4/4/5;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: xx-large;
+}
+
+.whyContent {
+  grid-area: 3/1/4/4;
+  border: 2px solid;
+  font-size: x-large;
+  color: white;
+  font-weight: bold;
+  text-shadow: black 10px 4px 6px;
+  padding: 25px;
+}
+
+.otherInfos {
+  grid-area: 4/1/5/2;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: xx-large;
+}
+
+.otherContent {
+  grid-area: 4/2/5/5;
+  border: 2px solid;
+  font-size: x-large;
+  color: white;
+  font-weight: bold;
+  text-shadow: black 10px 4px 6px;
+  padding: 25px;
 }/*# sourceMappingURL=index-style.css.map */
