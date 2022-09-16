@@ -1,0 +1,31 @@
+#navbar{
+    background-color: white;
+
+    
+    .navbarTop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto 15px 1% auto;
+
+        :hover{
+            transform: scale(1.05);}
+    }
+    .navbarBottom{
+        display: flex;
+        justify-content: space-around;
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
+        padding: 2%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    img{
+        width: 80px;
+        border: 2px solid;
+        border-radius: 25px 0 25px 0;
+        
+    }
+}
