@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"index-style.css"}
+{"version":3,"sources":["partials/_footer.scss","index-style.css"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,uBAAA;ACCJ","file":"index-style.css"}
