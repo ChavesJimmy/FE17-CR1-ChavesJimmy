@@ -157,4 +157,8 @@ footer img {
     padding: 15px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
+}
+#Month {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=index-style.css.map */
