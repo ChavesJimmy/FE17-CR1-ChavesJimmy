@@ -1,12 +1,33 @@
 #navbar{
     background-color: white;
 
+    button{
+        text-decoration: none;
+        border: 2px solid;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: white;
+        font-size: large;
+    }
+
+    .RecipeMonth{
+        border: black 3px solid;
+        color: rgb(243, 220, 176);
+        font-size: x-large;
+        border-radius: 15px;
+        height: 50px;
+        padding: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNtD2ax_uDFFhXo5uuPaSXKEnVj7WQx2V2zg&usqp=CAU);
+        background-size: cover;
+    }    
     
     .navbarTop{
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: auto 15px 1% auto;
+
 
         :hover{
             transform: scale(1.05);}
@@ -17,13 +38,17 @@
         border-top: solid 2px black;
         border-bottom: solid 2px black;
         padding: 2%;
+
+        :hover{
+            text-decoration: underline;
+        }
     }
     a{
         text-decoration: none;
         color: black;
     }
     img{
-        width: 80px;
+        width: 100px;
         border: 2px solid;
         border-radius: 25px 0 25px 0;
         

@@ -1,6 +1,25 @@
 #navbar {
   background-color: white;
 }
+#navbar button {
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+  font-size: large;
+}
+#navbar .RecipeMonth {
+  border: black 3px solid;
+  color: rgb(243, 220, 176);
+  font-size: x-large;
+  border-radius: 15px;
+  height: 50px;
+  padding: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNtD2ax_uDFFhXo5uuPaSXKEnVj7WQx2V2zg&usqp=CAU);
+  background-size: cover;
+}
 #navbar .navbarTop {
   display: flex;
   justify-content: space-between;
@@ -17,12 +36,15 @@
   border-bottom: solid 2px black;
   padding: 2%;
 }
+#navbar .navbarBottom :hover {
+  text-decoration: underline;
+}
 #navbar a {
   text-decoration: none;
   color: black;
 }
 #navbar img {
-  width: 80px;
+  width: 100px;
   border: 2px solid;
   border-radius: 25px 0 25px 0;
 }
@@ -68,6 +90,9 @@ footer {
 footer .links :last-child {
   border-right: none;
 }
+footer .links :hover {
+  text-decoration: underline;
+}
 footer .links a {
   color: white;
   text-decoration: none;
@@ -110,11 +135,26 @@ footer img {
   main img {
     height: 400px;
   }
-  .navbarBottom {
+  #navbar .navbarTop img {
+    width: 75px;
+  }
+  #navbar .navbarBottom {
     font-size: small;
   }
-  .links {
+  #navbar .links {
     display: flex;
     flex-direction: column;
+  }
+  #navbar button {
+    width: 75px;
+    padding: 5px;
+    font-size: small;
+  }
+  #navbar .RecipeMonth {
+    font-size: medium;
+    border-radius: 15px;
+    height: 25px;
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
 }/*# sourceMappingURL=index-style.css.map */

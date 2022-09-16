@@ -9,7 +9,10 @@ footer {
           :last-child{
                 border-right: none;
             }
-            
+            :hover{
+            text-decoration: underline;
+         }
+          
             a{
         color: white;
         text-decoration:none;       
@@ -17,7 +20,8 @@ footer {
         margin: 20px;
         border-right: white 1px solid;
         padding-right: 50px;
-          
+
+         
         }
         
           }

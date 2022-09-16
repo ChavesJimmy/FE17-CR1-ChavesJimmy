@@ -25,11 +25,34 @@
             height: 400px;
         }
     }
+    #navbar{
+    .navbarTop{
+        img{
+            width:75px;
+        }
+    }
     .navbarBottom{
         font-size: small;
     }
     .links{
         display: flex;
         flex-direction: column;
+    }
+    button{
+       
+        width: 75px;        
+        padding: 5px;
+        font-size: small;
+    }
+    
+    .RecipeMonth{
+           
+            font-size: medium;
+            border-radius: 15px;
+            height: 25px;
+            padding: 15px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          
+        }    
     }
 }
