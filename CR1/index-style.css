@@ -207,11 +207,17 @@ footer img {
     font-size: small;
     padding: 15px;
   }
+  #Month div p {
+    font-size: medium;
+  }
 }
 #Month {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+#Month p {
+  font-size: xx-large;
 }
 #Month h3 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
