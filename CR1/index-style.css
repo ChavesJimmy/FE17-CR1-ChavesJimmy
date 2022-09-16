@@ -60,4 +60,30 @@ main p {
 footer {
   color: white;
   background-color: black;
+}
+
+@media screen and (max-width: 1800px) {
+  .navbarBottom {
+    font-size: large;
+  }
+}
+@media screen and (max-width: 780px) {
+  main {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 480px) {
+  main {
+    display: grid;
+    grid-template: 400px/250px;
+    /*must add px measurement for this grid because one of the images was to small and was shrinking with fr measurement*/
+    justify-content: center;
+  }
+  main img {
+    height: 400px;
+  }
+  .navbarBottom {
+    font-size: small;
+  }
 }/*# sourceMappingURL=index-style.css.map */
